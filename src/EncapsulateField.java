@@ -1,5 +1,5 @@
 //There is a public field
-//Make It private and provide accessors
+//Make it private and provide accessors
 
 class Person {
 
