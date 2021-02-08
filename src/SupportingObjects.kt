@@ -5,3 +5,12 @@ class Order{
     }
 
 }
+
+
+class EditText {
+
+    val text: String = ""
+
+}
+
+
