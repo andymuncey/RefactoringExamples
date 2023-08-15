@@ -2,7 +2,8 @@ import java.time.LocalDate
 import java.time.temporal.ChronoUnit
 import kotlin.math.abs
 
-
+//book example uses employee with getRate and hasSpecialSkill as two properties
+//which are extracted to a Billable interface
 
 class Claim(val date: LocalDate, val costInPounds: Int, val type:Type ){
     enum class Type {FAULT, NO_FAULT, GLASS}
