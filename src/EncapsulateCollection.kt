@@ -1,18 +1,13 @@
-import java.util.*
-
 //A method returns a collection
 //Make it return a read only view and provide add/remove methods
-
 
 fun main() {
 
     val order = MealOrder()
 
-
     for (item in order.items!!) {
         //e.g. print receipt items
     }
-
 
 }
 
