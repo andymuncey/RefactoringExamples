@@ -17,7 +17,7 @@ fun handleEnvironment(browser: String, platform: String, resize: Int) {
 
 
 fun wasInitialised() : Boolean {
-
+//example, would have more complex logic
     return true
 }
 
