@@ -32,6 +32,19 @@ class Driver(val surname: String,
 
 }
 
+
+class Antiquity(var name: String, var madeYear : Int, var claims: Int) {
+     fun age(): Long {
+        return (LocalDate.now().year - madeYear).toLong()
+    }
+
+    fun faultClaimCount(): Int {
+        return claims
+    }
+
+
+}
+
 //riskPremium only requires something with a claim count and age
 //extract RiskAssessable interface
 
